@@ -1,0 +1,15 @@
+db:
+  path: "robot.db"
+
+logic:
+  crawl_delay_seconds: 1
+  recrawl_interval_seconds: 86400
+  request_timeout_seconds: 15
+  max_pages_per_run: 100
+  max_html_bytes: 2000000
+  user_agent: "MySearchRobot/1.0"
+  allowed_domains:
+    - "huggingface.co"
+  seed_urls:
+    - "https://huggingface.co/datasets/WINGNUS/ACL-OCL"
+  seed_urls_file: ""
